@@ -1,5 +1,5 @@
 *   {
-    outline: 0;
+    outline: 0px;
     padding: 0;
     margin: 0;
     border: 0;
@@ -23,7 +23,7 @@
 }
 
 h1  {
-    margin-top: 40px; 
+    margin-top: 20px; 
 }
 
 .location   {
@@ -44,8 +44,13 @@ h1  {
 }
 
 .des{
-    margin-right: 5px;
+    padding: 5px;
     border-right: black solid 2px;
+}
+
+.des2   {
+    display: inline-block;
+    padding: 5px;
 }
 
 .editprofile    {
