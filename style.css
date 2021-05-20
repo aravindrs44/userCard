@@ -1,0 +1,50 @@
+*   {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+.card   {
+    width: 500px;
+    height: 250px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 5px red;
+}
+
+.card > img, .editprofile, .location, h2, p{
+    margin: 0px 20px;
+}
+
+.colorbar   {
+    width: inherit;
+    height: 75px;
+    background-color: blue;
+}
+
+.card > img {
+    width: 70px;
+    position: absolute;
+    top: 60px;
+}
+
+h2  {
+    margin-top: 40px;
+}
+
+.location   {
+    display: flex;
+    align-items: center;
+}
+
+.location > img {
+    width: 16px;
+}
+
+.editprofile > img  {
+    width: 16px;
+}
+
+
