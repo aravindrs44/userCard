@@ -4,34 +4,26 @@
     margin: 0;
     border: 0;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .card   {
     width: 500px;
     height: 250px;
     margin: 20px auto;
-    background-color: #ffffff;
-    border: 5px red;
-}
-
-.card > img, .editprofile, .location, h2, p{
-    margin: 0px 20px;
-}
-
-.colorbar   {
-    width: inherit;
-    height: 75px;
-    background-color: blue;
+    background: rgb(0,212,255);
+    background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 100%);
+    padding: 20px;
+    border: solid silver;
 }
 
 .card > img {
     width: 70px;
-    position: absolute;
-    top: 60px;
+    margin: 20px 0px 0px 20px;
 }
 
-h2  {
-    margin-top: 40px;
+h1  {
+    margin-top: 40px; 
 }
 
 .location   {
@@ -39,8 +31,25 @@ h2  {
     align-items: center;
 }
 
+.location > img, .location > p  {
+    margin: 5px;
+}
+
 .location > img {
-    width: 16px;
+    width: 12px;
+}
+
+.descriptions   {
+    display: flex;
+}
+
+.des{
+    margin-right: 5px;
+    border-right: black solid 2px;
+}
+
+.editprofile    {
+    margin-top: 10px;
 }
 
 .editprofile > img  {
