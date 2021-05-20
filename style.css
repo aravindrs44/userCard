@@ -46,6 +46,10 @@ h1  {
 .des{
     display: inline-block;
     padding: 5px;
+    /* border-right: black solid 2px; */
+}
+
+.border-r{
     border-right: black solid 2px;
 }
 
